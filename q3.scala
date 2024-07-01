@@ -6,7 +6,7 @@ object q3{
     def average(num1: Int,num2: Int): Double={
         val num3 = add(num1,num2)
         val num4 = (num3/2)
-        BigDecimal(num4).setScale(2).toDouble
+        BigDecimal(num4).setScale(2).toDouble                 // num4 rounded to two decimal places
     }
 
     def main(args: Array[String]): Unit={
